@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <title>encriptador</title>
+</head>
+
+<body>
+  <header>
+    <img class="iconeAlura" src="/imagens/frame6.png" alt="Icone da Alura">
+  </header>
+   <main class="conteudo">
+  <section>
+    <textarea class="area-texto" cols="41" rows="4" placeholder="Digite seu texto aqui..."></textarea>
+    <div class="informação">
+      <h6>Apenas letras minusculas e sem acento</h6>
+    </div>
+    <div class="botoes">
+      <button onclick="btnencriptar()" class="btn-encriptar">criptografa</button>
+      
+      <button onclick="btndesencriptar()" class="btn-descriptografa">Descriptografar</button>
+    </div>
+  </section>
+  
+  <section>
+    <textarea class="mensagem" cols="20" rows="10"></textarea>
+    
+      <button onclick="btncopiar()" class="btn-copiar" >Copiar</button>
+    </section>
+ </main>
+ 
+ <script src="script.js"></script>
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
+

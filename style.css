@@ -1,0 +1,93 @@
+*{
+  background-color: #E5E5E5;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.iconeAlura {
+  margin-left: 10px;
+  padding-top: 10px;
+  width: 10%;
+}
+
+.conteudo {
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.area-texto {
+  border: none;
+  color: #0A3871;
+  margin-top: 50px;
+  text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871; }
+.area-texto:focus {
+  outline: none;
+}
+
+.mensagem {
+  background: #f6f6f6;
+  background-image: url(/imagens/boneco.png);
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 24px;
+  color: #0A3871;
+  margin-left: 98px;
+  margin-top: 20px;
+  padding-left: 20px;
+  position: fixed;
+}
+
+.mensagem:focus {
+  outline: none;
+}
+
+.botoes {
+  display: flex;
+  margin-top: 10px;
+}
+
+.btn-encriptar {
+  background-color: #0A3871;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: white;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+}
+
+.btn-descriptografa {
+  background-color: #0A3871;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: white;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+  margin-left: 30px;
+}
+
+.btn-copiar {
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 140px;
+  margin-top: 402px;
+  position: absolute;
+  width: 336px;
+}
+
+.btn-copiar:hover {
+  letter-spacing: 0.25em;
+  background-color: #d0d0d0;
+}
+
+
